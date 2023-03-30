@@ -1,2 +1,10 @@
 # ignore the following files in $HOME/.dotfiles
+/.git/*
+/.htaccess
+
+# just sane ignores
+*.bak
+*.BAK
+*~
+*.tmp
 
