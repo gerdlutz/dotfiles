@@ -1,0 +1,24 @@
+[user]
+	name = Kato
+    email = kato.dao@gmail.com
+    signingkey = ~/.ssh/id_ed25519.pub
+[alias]
+    cm = commit
+    st = status
+    up = pull --rebase
+[core]
+	editor = nvim
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+[commit]
+    gpgsign = true
+[gpg]
+    format = ssh
+[init]
+    defaultBranch = main
+[rebase]
+    autoStash = true
+
