@@ -1,0 +1,17 @@
+#aliases
+export LSOPT="ls --group-directories-first --color=auto"
+alias l="$LSOPT -lh"
+alias l.="$LSOPT -dlh .*"
+alias ll="$LSOPT -lha"
+alias ls="$LSOPT"
+alias h='history'
+alias j='journalctl'
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -iv'
+alias df='df -h'
+alias free='free -h'
+alias vi='nvim'
+alias tar='tar -xvzf'
+alias sys='sudo SYSTEMD_EDITOR=/bin/vi /usr/bin/systemctl'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME'
