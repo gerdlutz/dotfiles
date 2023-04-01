@@ -1,9 +1,8 @@
 #aliases
-LSOPT="--group-directories-first --color=auto"; export LSOPT
-alias l='ls $LSOPT -lh'
-alias l.='ls $LSOPT -lhd .*'
-alias ll='ls $LSOPT -lha'
-alias ls='ls $LSOPT'
+alias ls='ls --group-directories-first --color=auto'
+alias l='ls -lh'
+alias l.='ls -lhd .*'
+alias la='ls -lhA'
 alias h='history'
 alias j='journalctl'
 alias cp='cp -iv'
