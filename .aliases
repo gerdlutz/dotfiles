@@ -1,9 +1,9 @@
 #aliases
-export LSOPT="--group-directories-first --color=auto"
-alias l="ls $LSOPT -lh"
-alias l.="ls $LSOPT -lhd .*"
-alias ll="ls $LSOPT -lha"
-alias ls="ls $LSOPT"
+LSOPT="--group-directories-first --color=auto"; export LSOPT
+alias l='ls $LSOPT -lh'
+alias l.='ls $LSOPT -lhd .*'
+alias ll='ls $LSOPT -lha'
+alias ls='ls $LSOPT'
 alias h='history'
 alias j='journalctl'
 alias cp='cp -iv'
@@ -11,6 +11,8 @@ alias mv='mv -iv'
 alias rm='rm -iv'
 alias df='df -h'
 alias free='free -h'
+alias frei='df; free'
 alias vi='nvim'
+alias mux='tmuxinator'
 alias tar='tar -xvzf'
 alias sys='sudo SYSTEMD_EDITOR=/bin/vi /usr/bin/systemctl'
