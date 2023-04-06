@@ -1,4 +1,6 @@
 " source $VIMRUNTIME/defaults.vim
+" set ttymouse=
+set background=dark
 set showtabline=1
 set shiftwidth=4
 set tabstop=4
