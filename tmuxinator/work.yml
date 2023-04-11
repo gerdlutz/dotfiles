@@ -48,4 +48,3 @@ windows:
   - Shell:
   - MC: mc    
   - NVim: nvim
-#  - Log: j -fq
